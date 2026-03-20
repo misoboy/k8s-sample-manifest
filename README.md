@@ -1,4 +1,4 @@
-# sample-manifest
+# k8s-sample-manifest
 
 > Kubernetes deployment manifest samples used as a reference for demo application deployments in CI/CD pipelines.
 
@@ -11,15 +11,11 @@ A collection of Kubernetes manifest files for deploying a sample Spring Boot app
 
 ## Usage
 
-Apply all manifests:
-
 ```bash
+# Apply all manifests
 kubectl apply -f .
-```
 
-Or apply individually:
-
-```bash
+# Or individually
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 kubectl apply -f ingress.yaml
@@ -27,9 +23,8 @@ kubectl apply -f ingress.yaml
 
 ## Related
 
-- [sample-github-action](https://github.com/misoboy/sample-github-action) — The application that deploys using these manifests
+- [spring-boot-github-action](https://github.com/misoboy/spring-boot-github-action) — The application that deploys using these manifests
 
 ## License
 
 MIT
-
